@@ -3,7 +3,7 @@ import socket
 from colorama import Fore
 
 host = "127.0.0.1" # Localhost
-port = 55555 # Port
+port = 55555 # Port, u can select the port u want
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
